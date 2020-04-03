@@ -21,7 +21,7 @@
 #  THE SOFTWARE.
 
 ARG version=v1
-FROM jenkinsci-slave:$version
+FROM satish736/jenkinsci-slave:$version
 
 ARG version
 MAINTAINER Oleg Nenashev <o.v.nenashev@gmail.com>
