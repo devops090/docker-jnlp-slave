@@ -20,8 +20,8 @@
 #  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 #  THE SOFTWARE.
 
-ARG version=4.3-1
-FROM jenkins/slave:$version
+ARG version=v1
+FROM jenkinsci-slave:$version
 
 ARG version
 MAINTAINER Oleg Nenashev <o.v.nenashev@gmail.com>
